@@ -1,0 +1,18 @@
+# Startsymbols
+S ; 1.0
+
+# Phrasal rules
+S -> NP VP ; 0.5
+S -> NP V ; 0.5
+NP -> D N ; 0.5
+VP -> V ADV ; 0.5
+VP -> V NP ; 0.5
+
+# Lexical rules
+NP -> rain ; 0.5
+N -> rain ; 0.5
+N -> rains ; 0.5
+V -> rain ; 0.5
+V -> rains ; 0.5
+D -> the ; 1.0
+ADV -> down ; 1.0
